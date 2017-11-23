@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "sonata-project/media-bundle": "~2.3"
+        "sonata-project/media-bundle": "^2.3|^3.0"
     },
     "autoload": {
         "psr-4": { 
