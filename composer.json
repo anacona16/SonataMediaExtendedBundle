@@ -1,0 +1,22 @@
+{
+    "name": "anacona16/sonata-media-extended-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Sonata Media extended bundle",
+    "keywords": ["Sonata Media"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramiro Anacona Meneses",
+            "email": "anacona16@gmail.com"
+        }
+    ],
+    "require": {
+        "sonata-project/media-bundle" : "~2.3",
+
+    },
+    "autoload": {
+        "psr-4": { 
+            "Application\\Sonata\\MediaBundle\\": "src/" 
+        }
+    }
+}
